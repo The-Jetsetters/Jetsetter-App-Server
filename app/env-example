@@ -1,0 +1,3 @@
+DATABASE_URL = "heroku database url"
+SECRET_WORD = "user password"
+SECRET_WORD2 = "user password"
