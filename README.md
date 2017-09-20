@@ -17,7 +17,7 @@ $ knex seed:run
 $ nodemon
 ```
 Viewable Locally @
-![Localhost](http://localhost:8000)
+[Localhost](http://localhost:8000)
 
 Live site@
-![Live](https://stark-harbor-90587.herokuapp.com/trips/)
+[Live](https://stark-harbor-90587.herokuapp.com/trips/)
