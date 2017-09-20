@@ -1,12 +1,12 @@
 exports.up = function(knex, Promise) {
     return knex.schema.createTable('trip', (table) => {
         table.increments(),
-            table.date('startdate').notNullable(),
-            table.date('enddate').notNullable(),
+            table.text('startdate').notNullable(),
+            table.text('enddate').notNullable(),
             table.text('destination').notNullable()
             table.text('airline'),
             table.integer('flightnumber'),
-            table.time('departuretime'),
+            table.text('departuretime'),
             table.text('lodgingname'),
             table.text('lodgingconf'),
             table.text('rentalname'),
